@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border: 3px solid black;
+    margin: auto;
+    background-color: rgb(167, 203, 167);
+}
+table tr{
+    border: 3px solid black;
+}
+table tr td {
+    border: 3px solid;
+    padding: 2em;
+    position: relative;
+ }
+ .red{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* z-index: 1; */
+  border-top: 3px solid;
+  width: 4em;
+  height: 3vh;
+  background-color: rgb(232, 29, 37);
+  }
+  .yellow{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  /* z-index: 1; */
+  border-top: 3px solid;
+  width: 4em;
+  height: 3vh;
+  background-color: rgb(255, 255, 0);
+  }
+  .img1 {
+    /* width: 1rem; */
+    position: absolute;
+    top: 10%;
+    transform: rotate(-45deg);
+  }
+  .logo {
+    width: 32rem;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 40%;
+  }
+  .img2 {
+    width: 10rem;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    transform: rotate(-45deg);
+  }
+  .orange {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-left: 3px solid;
+    width: 1.3em;
+    height: 10.4vh;
+    background-color: rgb(252, 150, 35);
+  }
+  .pink{
+    background-color: rgb(177, 20, 46);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-left: 3px solid;
+    width: 1.6em;
+    height: 10.5vh;
+  }
+    .cyan{
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 3px solid;
+        width: 4em;
+        height: 3vh;
+        background-color: #46b2fb;
+      }
+      .brown {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-bottom: 3px solid;
+        width: 4em;
+        height: 2.8vh;
+        background-color: #945538;
+      }
+      .green{
+        position: absolute;
+        top: 22;
+        right: 23;
+        border: 3px solid;
+        width: 4.2em;
+        height: 2.8vh;
+        background-color: #009f10;
+        transform: rotate(90deg);
+}
+.blue{
+        position: absolute;
+        top: 22;
+        right: 23;
+        border: 3px solid;
+        width: 4.2em;
+        height: 2.8vh;
+        background-color: #4200d1;
+        transform: rotate(90deg);
+}
+      .img3{
+        position: absolute;
+       width: 10em;
+       right: 2%;
+       left: 65px;
+       transform: rotate(-180deg);
+       margin-top: -35px;
+      }
+      .img4{
+        position: absolute;
+        width: 8em;
+        right: 0;
+        left: -2em;
+       margin-top: -20px;
+      }
+      .img6{
+        position: absolute;
+        width: 2.7em;
+        left: -7.6em;
+        margin-top: -35px;
+        transform: rotate(130deg);
+      }
+      .img7{
+        position: absolute;
+        width: 5.1em;
+        left: -0.7em;
+        margin-top: -40px; 
+      }
+      .img8{
+        position: absolute;
+        width: 4em;
+        margin: auto;
+        left: -0.1em;
+        margin-top: -36px;
+      }
+      .img9{
+        position: absolute;
+        width: 8em;
+        left: -2em;
+        transform: rotate(90deg);
+        margin-top: -6em;
+      }
+      .img10{
+        position: absolute;
+        width: 60%;
+        transform: rotate(90deg);
+        /* left: -4px; */
+        right: 0.8rem;
+        margin-top: -2rem;
+      }
+      .img11{
+        position: absolute;
+        transform: rotate(90deg);
+        width: 4em;
+        margin-top: -1em;
+        right: 0.2rem;
+      }
+      .img12{
+        position: absolute;
+        width: 3em;
+        margin-top: -29px;
+        right: 0.5em;
+      }
+.img14{
+  position: absolute;
+  width: 4em;
+  top: 3;
+  left: 3;
+  transform: rotate(90deg);
+}
+.img15{
+  position: absolute;
+  width: 7em;
+  top: 3;
+  left: -15;
+  transform: rotate(90deg);
+}
+.img16{
+  position: absolute;
+  width: 2.4em;
+  top: 3;
+ right: 13;
+  transform: rotate(90deg);
+}
+.img17{
+  position: absolute;
+  width: 2.3em;
+  top: 3;
+ right: 13;
+  transform: rotate(45deg);
+}
+.img18{
+  position: absolute;
+  width: 2.3em;
+  top: 3;
+ right: 13;
+  /* transform: rotate(45deg); */
+}
+.img19{
+  position: absolute;
+  width: 3em;
+  top: 3;
+ right: 13;
+  /* transform: rotate(45deg); */ 
+}
+.img20{
+  position: absolute;
+  width: 6em;
+  top: 3;
+ right: -9;
+  /* transform: rotate(45deg); */ 
+}
